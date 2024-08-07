@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guess number game">
+    <meta name="author" content="Asilbek Rahimov">
+    <meta name="keywords" content="guess-number">
+    <meta name="robots" content="index , follow">
+    <meta http-equiv="refresh" content="200">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Guess number!</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="hero_inner">
+                    <i class='bx bxs-moon night-mode'></i>
+                    <i class='bx bx-sun day-mode'></i>
+                    <h1 class="name-game">Guess My Number</h1>
+                    <p class="info-about-find-or-not">Try to find indefinite number between 1 and 100</p>
+                    <p class="times-tried">Your try numbers</p>
+                    <p class="try-numbers">5</p>
+                    <p class="random-number">Number is 35</p>
+                    <form class="input-form">
+                        <input type="number" name="user_guessed_number" class="guess-number-input" maxlength="2" required>
+                        <button type="submit" class="guess-number-btn">Guess</button>
+                    </form>
+                    <button type="reset" class="new-game-btn">New Game</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

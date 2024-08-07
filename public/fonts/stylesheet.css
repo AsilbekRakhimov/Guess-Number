@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Sketch Book';
+    src: url('SketchBook.eot');
+    src: url('SketchBook.eot?#iefix') format('embedded-opentype'),
+        url('SketchBook.woff2') format('woff2'),
+        url('SketchBook.woff') format('woff'),
+        url('SketchBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sketch Book';
+    src: url('SketchBook_1.eot');
+    src: url('SketchBook_1.eot?#iefix') format('embedded-opentype'),
+        url('SketchBook_1.woff2') format('woff2'),
+        url('SketchBook_1.woff') format('woff'),
+        url('SketchBook_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
